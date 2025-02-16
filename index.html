@@ -1,39 +1,59 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tenor GIFs</title>
+    <title>Epic Meme Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #1e1e1e;
+            color: white;
             text-align: center;
             padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #2c2c2c;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
         }
         .gif-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             gap: 20px;
-            max-width: 600px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            color: #bbb;
         }
     </style>
 </head>
 <body>
-    <div class="gif-container">
-        <div class="tenor-gif-embed" data-postid="7116212383813575800" data-share-method="host" data-aspect-ratio="1.02469" data-width="100%">
-            <a href="https://tenor.com/view/evil-larry-larry-gif-7116212383813575800">Evil Larry Meme</a> from <a href="https://tenor.com/search/evil+larry-memes">Evil Larry Memes</a>
+    <div class="container">
+        <h1>Epic Meme Gallery</h1>
+        <p>Enjoy some of the finest meme GIFs on the internet!</p>
+        <div class="gif-container">
+            <div class="tenor-gif-embed" data-postid="7116212383813575800" data-share-method="host" data-aspect-ratio="1.02469" data-width="100%">
+                <a href="https://tenor.com/view/evil-larry-larry-gif-7116212383813575800">Evil Larry Meme</a> from <a href="https://tenor.com/search/evil+larry-memes">Evil Larry Memes</a>
+            </div>
+            
+            <div class="tenor-gif-embed" data-postid="23986318" data-share-method="host" data-aspect-ratio="0.953125" data-width="100%">
+                <a href="https://tenor.com/view/cuh-what-cat-huh-gif-23986318">Cuh What GIF</a> from <a href="https://tenor.com/search/cuh-gifs">Cuh GIFs</a>
+            </div>
         </div>
-        
-        <div class="tenor-gif-embed" data-postid="23986318" data-share-method="host" data-aspect-ratio="0.953125" data-width="100%">
-            <a href="https://tenor.com/view/cuh-what-cat-huh-gif-23986318">Cuh What GIF</a> from <a href="https://tenor.com/search/cuh-gifs">Cuh GIFs</a>
-        </div>
+        <footer>
+            <p>&copy; 2025 Epic Meme Gallery. Stay Legendary!</p>
+        </footer>
     </div>
     
     <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
